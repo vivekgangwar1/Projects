@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+
+    height: 1000vh;
+    width: 70%;
+    box-shadow: 0 0 5px gray;
+}
+.header{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.navbar{
+    background-color:#05055f;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.add{
+    text-align: center;
+    margin: 10px;
+}
+.live{
+    border: 2px solid black;
+    width: 10%;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-weight: bold;
+}
+.whatsapp{
+    background-color: rgb(65, 241, 65);
+    width: 28%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+.tools{
+    width: 28%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+.tools a{
+    font-size: 20px;
+}
+.card-notice{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 5px;
+    margin: 10px;
+}
+.card{
+    padding: 10px;
+}
+.red{
+    background-color: #ff0000;
+    border-radius: 10px;
+    text-align: center;
+}
+.red a{
+    text-decoration: none;
+    color: white;
+}
+.orange{
+    background-color:orange;
+    border-radius: 10px;
+    text-align: center;
+}
+.orange a{
+    text-decoration: none;
+    color: white;
+}
+.fusia{
+    background-color:#ed00d6;
+    border-radius: 10px;
+    text-align:center;
+}
+.fusia a{
+    text-decoration: none;
+    color: white;
+}
+.blue{
+    background-color:blue;
+    border-radius: 10px;
+    text-align:center;
+}
+.blue a{
+    text-decoration: none;
+    color: white;
+}
+.green{
+    background-color:olive;
+    border-radius: 10px;
+    text-align:center;
+}
+.green a{
+    text-decoration: none;
+    color: white;
+}
+.skyblue{
+    background-color:skyblue;
+    border-radius: 10px;
+    text-align:center;
+}
+.skyblue a{
+    text-decoration: none;
+    color: white;
+}
+.darkred{
+    background-color:darkred;
+    border-radius: 10px;
+    text-align:center;
+}
+.darkred a{
+    text-decoration: none;
+    color: white;
+}
+.darkgreen{
+    background-color:darkgreen;
+    border-radius: 10px;
+    text-align:center;
+}
+.darkgreen a{
+    text-decoration: none;
+    color: white;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 26px;
+    margin: 10px;
+}
+.box {
+    position: relative;
+    border: 2px solid #c51b39;
+    background: white;
+    min-height: 1260px;
+    padding-bottom: 55px;
+}
+
+.box h2 {
+    background: #b50008;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 8px 5px;
+    margin: 0 0 3px 0;
+}
+
+.box ul {
+    margin: 0;
+    padding: 0 14px 0 36px;
+}
+
+.box li {
+    padding-left: 2px;
+    margin: 0;
+    line-height: 1.25;
+    margin-bottom: 12px;
+}
+
+.box li::marker {
+    color: #111;
+}
+
+.box li a {
+    color: #0000ee;
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.box li a:hover {
+    color: #ff0000;
+}
+
+.button-area {
+    position: absolute;
+    bottom: 8px;
+    right: 2px;
+    width: 100%;
+    text-align: right;
+    padding-right: 0;
+}
+
+.more-btn {
+    display: inline-block;
+    background: #1689e8;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 9px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.more-btn:hover {
+    background: #005fb8;
+    transform: scale(1.05);
+}
+
